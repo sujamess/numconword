@@ -1,4 +1,4 @@
-package convex
+package numconword
 
 import (
 	"strconv"
