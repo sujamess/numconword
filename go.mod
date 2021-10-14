@@ -1,4 +1,4 @@
-module github.com/sujamess/convex
+module github.com/sujamess/numconword
 
 go 1.16
 

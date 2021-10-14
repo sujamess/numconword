@@ -1,8 +1,8 @@
 package options
 
 import (
-	"github.com/sujamess/convex/currency"
-	"github.com/sujamess/convex/lang"
+	"github.com/sujamess/numconword/currency"
+	"github.com/sujamess/numconword/lang"
 )
 
 type ConvertOptions struct {

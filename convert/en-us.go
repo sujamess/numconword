@@ -3,7 +3,7 @@ package convert
 import (
 	"github.com/shopspring/decimal"
 
-	"github.com/sujamess/convex/currency"
+	"github.com/sujamess/numconword/currency"
 )
 
 func getEnUsWords(i, d decimal.Decimal, c *currency.Currency, withCurrency *bool) string {
@@ -22,7 +22,11 @@ func getEnUsWords(i, d decimal.Decimal, c *currency.Currency, withCurrency *bool
 	}
 
 	if !d.IsZero() && d.IsPositive() {
-		res += decimalText + currency.CoinCurrencies[*c].String()
+		res += currency.Point + " " + decimalText + " "
+	}
+
+	if withCurrency != nil && *withCurrency {
+		res += currency.CoinCurrencies[*c].String() + " "
 
 		return res
 	}

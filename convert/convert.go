@@ -2,8 +2,8 @@ package convert
 
 import (
 	"github.com/shopspring/decimal"
-	"github.com/sujamess/convex/lang"
-	"github.com/sujamess/convex/options"
+	"github.com/sujamess/numconword/lang"
+	"github.com/sujamess/numconword/options"
 )
 
 type Convert struct {

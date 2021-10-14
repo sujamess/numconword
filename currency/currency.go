@@ -7,6 +7,8 @@ const (
 	THB Currency = "THB"
 )
 
+const Point = "point"
+
 func (c *Currency) String() string {
 	return string(*c)
 }
