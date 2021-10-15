@@ -11,6 +11,7 @@ import (
 )
 
 var (
+	// ErrInvalidNumber is an error when input an invalid number
 	ErrInvalidNumber = errors.New("numconword: invalid number")
 )
 
