@@ -1,10 +1,7 @@
-# numconword
+# numconword [![Coverage Status](https://coveralls.io/repos/github/sujamess/numconword/badge.svg?branch=master)](https://coveralls.io/github/99designs/numconword?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/sujamess/numconword)](https://goreportcard.com/report/github.com/sujamess/numconword) [![Go Reference](https://pkg.go.dev/badge/github.com/sujamess/numconword.svg)](https://pkg.go.dev/github.com/sujamess/numconword)
 
 ## What is numconword?
 [numconword](https://github.com/sujamess/numconword) is a Go library for converting any type of numbers into readable words
-
-
-# gqlgen [![Coverage Status](https://coveralls.io/repos/github/sujamess/numconword/badge.svg?branch=master)](https://coveralls.io/github/99designs/numconword?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/sujamess/numconword)](https://goreportcard.com/report/github.com/sujamess/numconword) [![Go Reference](https://pkg.go.dev/badge/github.com/sujamess/numconword.svg)](https://pkg.go.dev/github.com/sujamess/numconword)
 - **numconword** prioritizes big number handling — You could convert numbers as big as you want
 
 ## Quick start
