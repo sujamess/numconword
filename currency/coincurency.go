@@ -7,6 +7,7 @@ var CoinCurrencies = map[Currency]CoinCurrency{
 	THB: "satangs",
 }
 
+// String gets a string value
 func (c CoinCurrency) String() string {
 	return string(c)
 }

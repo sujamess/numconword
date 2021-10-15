@@ -1,5 +1,6 @@
 package lang
 
+// Lang represents
 type Lang string
 
 const (
